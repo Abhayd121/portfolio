@@ -8,11 +8,11 @@ import Chessboard from "../Chessboard/Chessboard";
 import { Howl } from "howler";
 
 const moveSound = new Howl({
-  src: ["/sounds/move-self.mp3"],
+  src: [`${import.meta.env.BASE_URL}sounds/move-self.mp3`],
 });
 
 const checkmateSound = new Howl({
-  src: ["/sounds/move-check.mp3"],
+  src: [`${import.meta.env.BASE_URL}sounds/move-check.mp3`],
 });
 
 export default function Referee() {
@@ -160,19 +160,19 @@ export default function Referee() {
         <div className="modal-body">
           <img
             onClick={() => promotePawn(PieceType.ROOK)}
-            src={`/assets/images/rook_${promotionTeamType()}.png`}
+            src={`${import.meta.env.BASE_URL}assets/images/rook_${promotionTeamType()}.png`}
           />
           <img
             onClick={() => promotePawn(PieceType.BISHOP)}
-            src={`/assets/images/bishop_${promotionTeamType()}.png`}
+            src={`${import.meta.env.BASE_URL}assets/images/bishop_${promotionTeamType()}.png`}
           />
           <img
             onClick={() => promotePawn(PieceType.KNIGHT)}
-            src={`/assets/images/knight_${promotionTeamType()}.png`}
+            src={`${import.meta.env.BASE_URL}assets/images/knight_${promotionTeamType()}.png`}
           />
           <img
             onClick={() => promotePawn(PieceType.QUEEN)}
-            src={`/assets/images/queen_${promotionTeamType()}.png`}
+            src={`${import.meta.env.BASE_URL}assets/images/queen_${promotionTeamType()}.png`}
           />
         </div>
       </div>

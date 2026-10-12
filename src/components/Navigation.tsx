@@ -30,7 +30,7 @@ const dockApps = [
 //   { name: 'Safari', icon: 'S', color: '#e6f0ff' },
   {
     name: 'Chrome',
-    icon: <img src="/chrome.svg" alt="" width={24} height={24} />,
+    icon: <img src={`${import.meta.env.BASE_URL}chrome.svg`} alt="" width={24} height={24} />,
     color: '#fff',
   },
   {
@@ -68,32 +68,32 @@ const dockApps = [
   },
   {
     name: 'Outlook',
-    icon: <img src="/outlook.svg" alt="" width={24} height={24} />,
+    icon: <img src={`${import.meta.env.BASE_URL}outlook.svg`} alt="" width={24} height={24} />,
     color: '#fff',
   },
   {
     name: 'OneNote',
-    icon: <img src="/onenote.svg" alt="" width={24} height={24} />,
+    icon: <img src={`${import.meta.env.BASE_URL}onenote.svg`} alt="" width={24} height={24} />,
     color: '#fff',
   },
   {
     name: 'Eclipse',
-    icon: <img src="/eclipse.svg" alt="" width={24} height={24} />,
+    icon: <img src={`${import.meta.env.BASE_URL}eclipse.svg`} alt="" width={24} height={24} />,
     color: '#fff',
   },
   {
     name: 'Spotify',
-    icon: <img src="/spotify.svg" alt="" width={24} height={24} />,
+    icon: <img src={`${import.meta.env.BASE_URL}spotify.svg`} alt="" width={24} height={24} />,
     color: '#000',
   },
   {
     name: 'Chess',
-    icon: <img src="/chess.svg" alt="" width={24} height={24} />,
+    icon: <img src={`${import.meta.env.BASE_URL}chess.svg`} alt="" width={24} height={24} />,
     color: '#9cde5d',
   },
   {
     name: 'Google Sheets',
-    icon: <img src="/sheets.svg" alt="" width={24} height={24} />,
+    icon: <img src={`${import.meta.env.BASE_URL}sheets.svg`} alt="" width={24} height={24} />,
     color: '#fff',
   },
   {

@@ -7,7 +7,7 @@ import PdfPreviewModal from './components/PdfPreviewModal'
 import WeatherWidget from './components/WeatherWidget'
 import './App.css'
 
-const RESUME_PDF_SRC = '/Abhayveer_Dhiman_Resume.pdf'
+const RESUME_PDF_SRC = `${import.meta.env.BASE_URL}Abhayveer_Dhiman_Resume.pdf`
 
 const desktopItems = [
   { name: 'Resume.pdf', type: 'pdf', color: '#5aa0d1', accent: '#5aa0d1' },
