@@ -1,0 +1,30 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', sans-serif;
+  color: #293b50;
+  background: #4d83bb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --paper: #fbfcfe;
+  --paper-deep: #f1f5fa;
+  --ink: #293b50;
+  --muted: #687b90;
+  --green: #416f9f;
+  --sage: #e4eff9;
+  --lime: #d5e7fb;
+  --orange: #4a91d3;
+  --line: #e1e9f1;
+  --line-strong: #cbd9e7;
+  --display: 'Space Grotesk', sans-serif;
+  --mono: 'IBM Plex Mono', monospace;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { min-width: 320px; margin: 0; }
+body::before { display: none; }
+button, a { font: inherit; }
+a:focus-visible { outline: 2px solid var(--orange); outline-offset: 4px; }
+::selection { color: var(--ink); background: var(--lime); }
+#root { min-height: 100svh; }
